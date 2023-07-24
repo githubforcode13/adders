@@ -1,0 +1,9 @@
+module halfadder(
+input A,
+input B,
+output S,
+output cout
+);
+assign S=A^B;
+assign cout=A&B;
+endmodule
